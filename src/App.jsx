@@ -59,7 +59,7 @@ function App() {
 
         {/* Droppable Canvas Area */}
         <Droppable id="droppable">
-          <div className="w-full md:w-2/3 bg-white shadow-md rounded-lg p-6 border-2 border-dashed border-indigo-400 min-h-[300px] flex flex-col items-center justify-center">
+          <div className=" md:w-2/3 bg-white shadow-md rounded-lg p-6 border-2 border-dashed border-indigo-400 min-h-[500px] flex flex-col items-center justify-center">
             {droppedComponents.length === 0 ? (
               <p className="text-gray-400 text-lg font-medium">Drag components here</p>
             ) : (

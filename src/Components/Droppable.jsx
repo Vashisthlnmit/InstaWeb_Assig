@@ -16,7 +16,7 @@ export function Droppable({ id, children, style: propStyle = {} }) {
     <div 
       ref={setNodeRef} 
       style={style} 
-      className="droppable-area w-full min-h-[400px] border-2 border-dashed border-indigo-300 p-4 rounded-lg"
+      className="droppable-area w-full min-h-[500px] border-2 border-dashed border-indigo-300 p-4 rounded-lg"
     >
       {children}
     </div>
